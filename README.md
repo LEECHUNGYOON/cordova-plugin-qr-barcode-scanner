@@ -1,3 +1,11 @@
+# android permission config.xml
+
+<uses-permission android:name="android.permission.CAMERA"/>
+<uses-feature android:name="android.hardware.camera" android:required="true"/>
+
+
+
+
 # Not maintained
 
 This plugin is not maintained anymore.
