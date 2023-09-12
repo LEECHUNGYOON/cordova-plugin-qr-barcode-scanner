@@ -1,7 +1,7 @@
 # android permission config.xml
 
-<uses-permission android:name="android.permission.CAMERA"/>
-<uses-feature android:name="android.hardware.camera" android:required="true"/>
+[<uses-permission android:name="android.permission.CAMERA"/>]
+[<uses-feature android:name="android.hardware.camera" android:required="true"/>]
 
 
 
