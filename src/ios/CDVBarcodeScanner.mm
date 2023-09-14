@@ -349,6 +349,11 @@ parentViewController:(UIViewController*)parentViewController
     }
 
     self.viewController = [[CDVbcsViewController alloc] initWithProcessor: self alternateOverlay:self.alternateXib];
+
+    // 2023-09-14 yoon
+    // 바코드 스캔 화면 전체 화면으로 실행 
+    self.viewController.modalPresentationStyle = UIModalPresentationFullScreen;
+    
     // here we set the orientation delegate to the MainViewController of the app (orientation controlled in the Project Settings)
     self.viewController.orientationDelegate = self.plugin.viewController;
 
