@@ -2,7 +2,7 @@
 
 date: 2023-09-15
 
-ios 에서 qr scan popup을 fullscreen으로 뜨게 수정
+ios 에서 qr scan popup을 fullscreen으로 뜨게 수정.
 
 # android 12 bugfix
 gradle 7.0 higher version issue
