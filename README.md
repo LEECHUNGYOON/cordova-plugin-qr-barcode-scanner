@@ -1,8 +1,11 @@
-# android permission config.xml
+# android 12 bugfix
+gradle 7.0 higher version issue
 
+# permission config.xml if requirement
+```
 <uses-permission android:name="android.permission.CAMERA"/>
 <uses-feature android:name="android.hardware.camera" android:required="true"/>
-
+```
 
 
 
